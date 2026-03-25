@@ -1,19 +1,19 @@
 import { useState } from "react";
 
 function App2() {
-  const [mode, setMode] = useState("light");
+  const[mode,setMode]=useState('light');
 
-  const toggleMode = () => {
-    setMode(mode === "light" ? "dark" : "light");
+  const toggleMode =()=>{
+    setMode(mode==='light' ? "dark" :"light")
   };
 
   return (
     <div
       style={{
-        backgroundColor: mode === "light" ? "white" : "black",
-        color: mode === "light" ? "black" : "white",
+        backgroundColor:mode==='light' ? 'white':'black',
+        color:mode==='light'?'black':'white',
         height: "100vh",
-        padding: "20px",
+        padding: "40px",
       }}
     >
       <button onClick={toggleMode}>

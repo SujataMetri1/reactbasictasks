@@ -9,6 +9,12 @@ import Counter from "./Counter";
 import Hide from "./Hide";
 import Text from "./Text";
 import App2 from "./App2";
+import AddItemToList from "./AddItemToList";
+import ConditionRendering from "./ConditionRendering";
+import Toggale from "./Toggale";
+import ShowHide from "./ShowHide";
+import Button from "./button";
+import StatusBadge from "./StatusBadge";
 
 // Get the 'root' div from index.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -24,6 +30,12 @@ root.render(
    {/* <Counter></Counter> */}
    {/* <Hide></Hide> */}
    {/* <Text></Text> */}
-    <App2></App2>
+    {/* <App2></App2> */}
+    {/* <AddItemToList></AddItemToList> */}
+    {/* <ConditionRendering></ConditionRendering> */}
+    {/* <Toggale></Toggale> */}
+    {/* <ShowHide></ShowHide> */}
+    {/* <Button></Button> */}
+    <StatusBadge></StatusBadge>
   </div>
 );
