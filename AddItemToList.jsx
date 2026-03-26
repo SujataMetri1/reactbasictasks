@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function AddItemToList() {
-    const [input,setInput]=useState("");
+    const [input,setInput]=useState(()=>"hello");
     const [items,setItems]=useState([])
 
  const handleAdd=()=>{
@@ -10,7 +10,7 @@ function AddItemToList() {
     setInput();
  }
 
-    const handleRe =(indexRemove)=>{
+    const handleRender =(indexRemove)=>{
         const newItems=items.filter((_, index)=>index !==indexRemove  );
         setItems(newItems)
     };
@@ -27,7 +27,7 @@ function AddItemToList() {
   {items.map((item, index) => (
     <li key={index}>
       {item}
-      <button onClick={() => handleRe(index)}>Delete</button>
+      <button onClick={() => handleRender(index)}>Delete</button>
     </li>
   ))}
 </ul>

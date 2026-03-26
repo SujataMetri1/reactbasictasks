@@ -6,6 +6,7 @@ import LoginLogout from "./LoginLogout";
 import ColorToggle from "./ColorToggle";
 import FormValidation from "./FormValidation";
 import UserCard from "./UserCard";
+import Example from "./Example";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 // Render your App component inside the root
@@ -16,6 +17,6 @@ root.render(
     {/* <LoginLogout></LoginLogout> */}
     {/* <ColorToggle></ColorToggle> */}
     {/* <FormValidation></FormValidation> */}
-    <UserCard></UserCard>
+    {/* <UserCard></UserCard> */}     <Example></Example>
   </div>
 );
