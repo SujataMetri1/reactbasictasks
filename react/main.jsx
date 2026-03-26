@@ -1,21 +1,33 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-
 import NameList from "./NameList";
 import Greeting from "./Greeting";
 import ToggleText from "./ToggleText";
 import Counter from "../Counter";
+import Button1 from "./Button1";
+import Button from "./Button";
+import Users from "./Users";
+import SearchFilter from "./SearchFilters";
+import Dropdown from "./Dropdown";
 
-// Get the 'root' div from index.html
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-// Render your App component inside the root
 root.render(
-  <div>
-  {/* <NameList></NameList> */}
-  {/* <Greeting></Greeting> */}
-  {/* <ToggleText></ToggleText> */}
-  <Counter></Counter>
-  </div>
+  <React.StrictMode>
+    <div>
+      {/* <NameList /> */}
+      {/* <Greeting /> */}
+      {/* <ToggleText /> */}
+      {/* <Counter /> */}
+
+      {/* <Button text="Click Me" color="blue" />
+      <Button text="Submit" color="green" />
+
+      <Button1 /> */}
+      {/* <Users></Users> */}
+      {/* <SearchFilter></SearchFilter> */}
+      <Dropdown></Dropdown>
+    </div>
+  </React.StrictMode>
 );
