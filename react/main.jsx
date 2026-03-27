@@ -10,6 +10,9 @@ import Button from "./Button";
 import Users from "./Users";
 import SearchFilter from "./SearchFilters";
 import Dropdown from "./Dropdown";
+import MyForm from "./MyForm";
+import CharCounter from "./CharCounter";
+import LoginForm from "./LoginForm";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -27,7 +30,10 @@ root.render(
       <Button1 /> */}
       {/* <Users></Users> */}
       {/* <SearchFilter></SearchFilter> */}
-      <Dropdown></Dropdown>
+      {/* <Dropdown></Dropdown> */}
+      {/* <MyForm></MyForm> */}
+      {/* <CharCounter></CharCounter> */}
+      <LoginForm></LoginForm>
     </div>
   </React.StrictMode>
 );
